@@ -12,7 +12,6 @@ with DAG(
     catchup=False,
     max_active_runs=2,
     max_active_tasks=2,
-    orientation="TB",
     tags=["latihan"]
 ) as dag:
     start = EmptyOperator(task_id="start")
