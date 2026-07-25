@@ -7,7 +7,7 @@ import pendulum
 
 with DAG(
     dag_id="example_2",
-    description='latihan 1',
+    description='latihan 2',
     start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
     max_active_runs=2,
